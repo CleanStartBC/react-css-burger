@@ -35,7 +35,7 @@ const Burger = props => {
       onClick={onClick}
       className={`${classes.burger} ${classes.active}`}
       type="button"
-      name="menu"
+      aria-label="menu"
       style={style}
     >
       <span className={classes.box}>

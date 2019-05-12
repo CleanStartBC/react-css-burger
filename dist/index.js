@@ -68,7 +68,7 @@ var Burger = function Burger(props) {
       onClick: onClick,
       className: classes.burger + ' ' + classes.active,
       type: 'button',
-      name: 'menu',
+      'aria-label': 'menu',
       style: style
     },
     React.createElement(
